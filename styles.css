@@ -1,29 +1,21 @@
-.bannerImage{
-    /* position: relative;
-    width: 100%;
-    z-index: -10 */
-;
-}
 .titleGroup{
-    /* width: auto;
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative; */
-    /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; */
-  color: aliceblue;
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 .banner{
   background-image: url("Images/Cover.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  min-height: 100%;
+  height: 100%;
+  color: aliceblue;
 }
-  body{
+
+body{
   margin: 0px;
   height: 100%;
 }
