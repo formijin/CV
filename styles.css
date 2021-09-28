@@ -1,26 +1,45 @@
-.bannerImage{
-    width: 100%;
-    position:absolute;
-    z-index: -1;
-}
 .titleGroup{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* display: inline-block; */
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-  color: aliceblue;
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    
 }
 .banner{
-  height:max-content;
+  background-image: url("Images/Cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: aliceblue;
 }
-  body{
+
+body{
   margin: 0px;
+  height: 100%;
+  font-family:cursive;
 }
-h2{
-  margin: 0px;
+
+html{
+    height: 100%;
 }
-h1{
-  margin: 1px;
+.companyLogo{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+}
+.companyInfo{
+  display: inline-block;
+}
+.hero{
+  font-size: 5rem;
+  margin: 0;
+  
+}
+.subHero{
+  font-size: 2rem;
+  margin: 0;
 }
