@@ -1,6 +1,5 @@
 .bannerImage{
     width: 100%;
-    position:absolute;
     z-index: -1;
 }
 .titleGroup{
@@ -8,12 +7,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* display: inline-block; */
-    text-align: center;
+  text-align: center;
   color: aliceblue;
 }
 .banner{
-  height:max-content;
+  
 }
   body{
   margin: 0px;
@@ -22,5 +20,5 @@ h2{
   margin: 0px;
 }
 h1{
-  margin: 1px;
+  margin: 0px;
 }
