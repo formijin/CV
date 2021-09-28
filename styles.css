@@ -18,6 +18,7 @@
 body{
   margin: 0px;
   height: 100%;
+  font-family:cursive;
 }
 h2{
   margin: 0px;
@@ -27,4 +28,12 @@ h1{
 }
 html{
     height: 100%;
+}
+.companyLogo{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+}
+.companyInfo{
+  display: inline-block;
 }
