@@ -5,7 +5,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: 'Brandon Grotesque Bold', sans-serif;
+    /* font-family: 'Brandon Grotesque Bold', sans-serif; */
     
 }
 .banner{
@@ -18,23 +18,23 @@
 }
 
 body{
-  margin: 0px;
   height: 100%;
-  font-family:cursive;
 }
 
 html{
     height: 100%;
 }
 .companyLogo{
-    height: 100px;
-    width: 100px;
-    display:inline-block;
-}
+    height: 20%;
+    width: 20%;
+    float: left;
+    margin: 30px;
+    }
 .companyInfo{
-  display: inline-block;
+  width: 50%;
+  margin: auto;
 }
-.hero{
+/* .hero{
   font-size: 5rem;
   margin: 0;
   
@@ -43,4 +43,4 @@ html{
   font-size: 3rem;
   margin: 0;
   
-}
+} */
