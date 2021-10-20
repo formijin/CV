@@ -152,18 +152,16 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-    <script type="text/javascript">
-        window.doorbellOptions = {
-            "id": "12735",
-            "appKey": "Y4nGGsQUsLtvEfA423o54bmx1TSPlDGQPTXtzF2EKoZ1s1moNjFqKDbNjhdDZVgY"
-        };
-        (function(w, d, t) {
-            var hasLoaded = false;
-            function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/'+window.doorbellOptions['id']+'?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
-            if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
-            if (d.readyState == 'complete') { l(); }
-        }(window, document, 'script'));
-    </script>
-</body>
+    <!-- Start of Survicate (www.survicate.com) code -->
+    <script type='text/javascript'>
+        (function(w) {
+          var s = document.createElement('script');
+          s.src = 'https://survey.survicate.com/workspaces/31336b9d9c6a65bca4f1574b4123117f/web_surveys.js';
+          s.async = true;
+          var e = document.getElementsByTagName('script')[0];
+          e.parentNode.insertBefore(s, e);
+        })(window);
+      </script>
+    <!-- End of Survicate code -->
 
 </html>
