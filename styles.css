@@ -19,6 +19,12 @@
 }
 
 #education{
-  background-color: #B1B2B4;
+  background-image: url("Images/wallpapersden.com_grey-background-and-colorful-circle_3840x2160.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+}
+#education h1 {
+  color: white;
 }
