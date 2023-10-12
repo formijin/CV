@@ -10,10 +10,10 @@ app.use(express.static(`${__dirname}/public`));
 
 
 app.get("/",(req,res)=>{
-    res.sendfile(`${__dirname}/views/index.html`);
+    res.sendFile(`${__dirname}/views/index.html`);
 });
 
 
-app.listen(port, () => {
+app.listen(process.env.port || port, () => {
     console.log(`Server started on port ${port}`);
 });
