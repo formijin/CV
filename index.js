@@ -10,7 +10,7 @@ app.use(express.static(`${__dirname}/public`));
 
 
 app.get("/",(req,res)=>{
-    res.sendfile(`${__dirname}/index.html`)
+    res.sendfile(`${__dirname}/views/index.html`);
 });
 
 
